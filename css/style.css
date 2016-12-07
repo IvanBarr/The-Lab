@@ -1,0 +1,365 @@
+.jumbotron {
+  background-color: #00a3e4;
+  background-image: url("../img/bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.jumbotron h1 {
+  color: white;
+  margin-top: 260px;
+  font-size: 50px;
+  font-family: 'Fredoka One', cursive;
+  letter-spacing: 5px;
+}
+
+.jumbotron p {
+  color: white;
+  margin: 20px 0 20px;
+  font-size: 18px;
+}
+
+.jumbotron p br {
+  display: none;
+}
+
+.jumbotron p .btn-primary {
+  background-color: #49b9e6;
+  border: none;
+  border-radius: 3px;
+  font-size: 15px;
+  padding: 15px 25px;
+}
+
+.jumbotron p .btn-primary:hover {
+  background-color: #f1c40f;
+}
+
+.jumbotron .phone .iphone {
+  margin-top: 65px;
+  margin-bottom: -140px;
+  margin-left: 150px;
+}
+
+.jumbotron .social {
+  background-color: rgba(0, 153, 204, 0.5);
+}
+
+.jumbotron .social p {
+  font-size: 15px;
+  padding: 65px 0;
+}
+
+.jumbotron .social p i {
+  margin-left: 20px;
+}
+
+.jumbotron .social p span {
+  margin-left: 50px;
+}
+
+.jumbotron .social .social-icons a {
+  color: white;
+}
+
+.jumbotron .social .social-icons a:hover {
+  color: #0084b8;
+}
+
+@media only screen and (max-width: 1215px) {
+  .jumbotron h1 {
+    margin-top: 150px;
+  }
+  .jumbotron .phone .iphone {
+    margin-left: 80px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .jumbotron h1 {
+    margin-top: 100px;
+  }
+  .jumbotron .phone .iphone {
+    margin: 50px auto -50px auto;
+  }
+  .jumbotron .social p {
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+  }
+  .jumbotron .social p br {
+    display: block;
+  }
+  .jumbotron .social p span {
+    margin-left: 0;
+  }
+  .jumbotron .social p i {
+    margin: 0;
+    padding: 10px 5px 0 5px;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .jumbotron h1 {
+    font-size: 40px;
+    letter-spacing: 0;
+    margin-top: 30px;
+  }
+}
+
+.icons-bg {
+  background-color: #0084b8;
+  overflow: hidden;
+}
+
+.icons-bg .icons .icon {
+  padding: 120px 0;
+}
+
+.icons-bg .icons .icon img {
+  display: block;
+  margin: 0 auto;
+}
+
+.icons-bg .icons .icon p {
+  text-align: center;
+  color: white;
+  font-size: 55px;
+  margin-bottom: 0;
+}
+
+.icons-bg .icons .icon p:nth-child(3) {
+  font-size: 18px;
+}
+
+.icons-bg .icons .icon:first-child, .icons-bg .icons .icon:last-child {
+  padding-top: 140px;
+}
+
+@media only screen and (max-width: 768px) {
+  .icons-bg .icons .col-sm-4 {
+    padding: 50px 0 !important;
+  }
+  .icons-bg .icons:first-child {
+    padding-top: 30px;
+  }
+}
+
+.guy {
+  padding-top: 100px;
+}
+
+.guy img {
+  display: block;
+  margin: 0 auto;
+}
+
+.testimonial h3 {
+  padding-top: 150px;
+  font-family: 'Fredoka One', cursive;
+  font-size: 55px;
+  color: black;
+}
+
+.fight {
+  padding-bottom: 100px;
+}
+
+.fight h3 {
+  margin-top: 245px;
+  font-family: 'Fredoka One', cursive;
+  font-size: 55px;
+  color: black;
+}
+
+.fight p {
+  padding: 25px 0;
+  margin-bottom: 0;
+}
+
+.fight .btn-primary {
+  background-color: #49b9e6;
+  border: none;
+  border-radius: 3px;
+  font-size: 15px;
+  padding: 15px 25px;
+}
+
+.fight .btn-primary:hover {
+  background-color: #f1c40f;
+}
+
+.girl {
+  margin-top: 160px;
+}
+
+.girl img {
+  display: block;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 992px) {
+  .guy {
+    display: none;
+  }
+  .girl {
+    display: none;
+  }
+  .testimonial h3 {
+    margin-top: 0px;
+  }
+  .fight h3 {
+    margin-top: 0;
+    padding-top: 150px;
+  }
+}
+
+.team {
+  background-color: #ecf0f1;
+}
+
+.team .profile-pics {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.team .profile-pics img {
+  display: block;
+  margin: 0 auto;
+}
+
+.team .profile-pics h3 {
+  text-align: center;
+  font-family: 'Fredoka One', cursive;
+  color: black;
+}
+
+.team .profile-pics p {
+  text-align: center;
+}
+
+.team .profile-pics .fix {
+  padding-left: 60px;
+}
+
+.team .right, .team .left {
+  display: none;
+}
+
+@media only screen and (max-width: 992px) {
+  .team .right, .team .left {
+    display: block;
+  }
+  .team .profile-pics {
+    display: none;
+  }
+  .team .profile-pics .fix {
+    padding-left: 0;
+  }
+}
+
+.like-share {
+  background-color: #f1c40f !important;
+}
+
+.like-share p {
+  text-align: center;
+  padding: 50px;
+  font-size: 30px;
+  font-family: 'Fredoka One', cursive;
+  color: white;
+}
+
+footer {
+  background-color: #d8af0c;
+}
+
+footer ul {
+  padding-left: 0;
+}
+
+footer ul li {
+  list-style-type: none;
+  padding: 50px 0;
+  color: white;
+}
+
+footer ul li:first-child:before {
+  position: relative;
+  top: 30px;
+  margin-left: 10%;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  content: "\2709";
+  color: white;
+}
+
+footer ul li:nth-child(2):before {
+  position: relative;
+  top: 30px;
+  margin-left: 20%;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  content: "\e021";
+  color: white;
+}
+
+footer ul li:last-child:before {
+  position: relative;
+  top: 30px;
+  left: 30%;
+  display: inline-block;
+  font: normal normal normal 20px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  content: "\f17e";
+  color: white;
+  -webkit-font-smoothing: antialiased;
+}
+
+footer ul li p, footer ul li h4 {
+  text-align: center;
+}
+
+footer ul li i {
+  color: white;
+}
+
+@media only screen and (max-width: 1213px) {
+  footer ul li:first-child:before {
+    margin-left: 5%;
+  }
+  footer ul li:nth-child(2):before {
+    margin-left: 15%;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  footer ul li {
+    padding: 30px 0;
+  }
+  footer ul li:first-child:before {
+    top: 0;
+    left: 44%;
+  }
+  footer ul li:nth-child(2):before {
+    top: 0;
+    left: 34%;
+  }
+  footer ul li:last-child:before {
+    top: 0;
+    left: 49%;
+  }
+}

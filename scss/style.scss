@@ -1,0 +1,395 @@
+@import "variables.scss";
+
+.jumbotron{
+  background-color: $bg-color;
+  background-image: url("../img/bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  padding-bottom: 0;
+  margin-bottom: 0;
+
+  h1{
+    color: white;
+    margin-top: 260px;
+    font-size: 50px;
+    font-family: 'Fredoka One', cursive;
+    letter-spacing: 5px;
+  }
+  p{
+    color: white;
+    margin: 20px 0 20px;
+    font-size: 18px;
+    br{
+      display: none;
+    }
+    .btn-primary{
+      background-color: $button-color;
+      border: none;
+      border-radius: 3px;
+      font-size: 15px;
+      padding: 15px 25px;
+      &:hover{
+        background-color: $sec-color;
+      }
+    }
+  }
+  .phone{
+    .iphone{
+      margin-top: 65px;
+      margin-bottom: -140px;
+      margin-left: 150px;
+    }
+  }
+  .social{
+    background-color: rgba(0, 153, 204, 0.5);
+    p{
+      font-size: 15px;
+      padding: 65px 0;
+
+      i{
+        margin-left: 20px;
+      }
+      span{
+        margin-left: 50px;
+      }
+    }
+    .social-icons{
+      a{
+        color: white;
+        &:hover{
+          color: $primary-color;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1215px){
+  .jumbotron{
+    h1{
+      margin-top: 150px;
+    }
+    .phone{
+      .iphone{
+        margin-left: 80px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 992px){
+  .jumbotron{
+    h1{
+      margin-top: 100px;
+    }
+    .phone{
+      .iphone{
+        margin: 50px auto -50px auto;
+      }
+    }
+    .social{
+      p{
+        text-align: center;
+        padding: 20px 0;
+        margin-top: 50px;
+        br{
+          display: block;
+        }
+        span{
+          margin-left: 0;
+        }
+        i{
+          margin: 0;
+          padding: 10px 5px 0 5px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 390px){
+  .jumbotron{
+    h1{
+      font-size: 40px;
+      letter-spacing: 0;
+      margin-top: 30px;
+    }
+  }
+}
+
+
+//icons
+
+.icons-bg{
+  background-color: $primary-color;
+  overflow: hidden;
+  .icons{
+    .icon{
+      padding: 120px 0;
+      img{
+        display: block;
+        margin: 0 auto;
+      }
+      p{
+        text-align: center;
+        color: white;
+        font-size: 55px;
+        margin-bottom: 0;
+        &:nth-child(3){
+          font-size: 18px;
+        }
+      }
+      &:first-child,&:last-child{
+        padding-top: 140px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px){
+  .icons-bg{
+    .icons{
+      .col-sm-4{
+        padding: 50px 0 !important;
+      }
+      &:first-child{
+        padding-top: 30px;
+      }
+    }
+  }
+}
+
+
+//Testimonial
+
+.guy{
+  padding-top: 100px;
+  img{
+    display: block;
+    margin: 0 auto;
+  }
+}
+.testimonial{
+  h3{
+    padding-top: 150px;
+    font-family: 'Fredoka One', cursive;
+    font-size: 55px;
+    color: black;
+  }
+}
+
+.fight{
+  padding-bottom: 100px;
+  h3{
+    margin-top: 245px;
+    font-family: 'Fredoka One', cursive;
+    font-size: 55px;
+    color: black;
+  }
+  p{
+    padding: 25px 0;
+    margin-bottom: 0;
+  }
+  .btn-primary{
+    background-color: $button-color;
+    border: none;
+    border-radius: 3px;
+    font-size: 15px;
+    padding: 15px 25px;
+    &:hover{
+      background-color: $sec-color;
+    }
+  }
+}
+.girl{
+  margin-top: 160px;
+  img{
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 992px){
+  .guy{
+    display: none;
+  }
+  .girl{
+    display: none;
+  }
+  .testimonial{
+    h3{
+      margin-top: 0px;
+    }
+  }
+  .fight{
+    h3{
+      margin-top: 0;
+      padding-top: 150px;
+    }
+  }
+}
+
+//team
+
+.team{
+  background-color: $gray;
+  .profile-pics{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    img{
+      display: block;
+      margin: 0 auto;
+    }
+    h3{
+      text-align: center;
+      font-family: 'Fredoka One', cursive;
+      color: black;
+    }
+    p{
+      text-align: center;
+    }
+    .fix{
+      padding-left: 60px;
+    }
+  }
+  .right, .left{
+    display: none;
+  }
+}
+  @media only screen and (max-width: 992px){
+    .team{
+      .right, .left{
+        display: block;
+      }
+      .profile-pics{
+        display: none;
+        .fix{
+          padding-left: 0;
+        }
+      }
+    }
+  }
+
+  .like-share{
+    background-color: $sec-color !important;
+    p{
+      text-align: center;
+      padding: 50px;
+      font-size: 30px;
+      font-family: 'Fredoka One', cursive;
+      color: white;
+    }
+  }
+
+  //footer
+
+  footer{
+    background-color: $sec-darker;
+    ul{
+      padding-left: 0;
+      li{
+        list-style-type: none;
+        padding: 50px 0;
+        color: white;
+        &:first-child{
+          &:before{
+            position: relative;
+            top: 30px;
+            margin-left: 10%;
+            display: inline-block;
+            font-family: 'Glyphicons Halflings';
+            font-style: normal;
+            font-weight: 400;
+            line-height: 1;
+            -webkit-font-smoothing: antialiased;
+            content: "\2709";
+            color: white;
+          }
+        }
+        &:nth-child(2){
+          &:before{
+            position: relative;
+            top: 30px;
+            margin-left: 20%;
+            display: inline-block;
+            font-family: 'Glyphicons Halflings';
+            font-style: normal;
+            font-weight: 400;
+            line-height: 1;
+            -webkit-font-smoothing: antialiased;
+            content: "\e021";
+            color: white;
+          }
+        }
+        &:last-child{
+          &:before{
+            position: relative;
+            top: 30px;
+            left: 30%;
+            display: inline-block;
+            font: normal normal normal 20px/1 FontAwesome;
+            font-size: inherit;
+            text-rendering: auto;
+            content: "\f17e";
+            color: white;
+            -webkit-font-smoothing: antialiased;
+          }
+        }
+        p, h4{
+          text-align: center;
+        }
+        i{
+          color: white;
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width: 1213px){
+    footer{
+      ul{
+        li{
+          &:first-child{
+            &:before{
+              margin-left: 5%;
+            }
+          }
+          &:nth-child(2){
+            &:before{
+              margin-left: 15%;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width: 992px){
+    footer{
+      ul{
+        li{
+          padding: 30px 0;
+          &:first-child{
+            &:before{
+              top: 0;
+              left: 44%;
+            }
+          }
+          &:nth-child(2){
+            &:before{
+              top: 0;
+              left: 34%;
+            }
+          }
+          &:last-child{
+            &:before{
+              top: 0;
+              left: 49%;
+            }
+          }
+        }
+      }
+    }
+  }
